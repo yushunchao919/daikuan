@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>申请</title>
+		<link rel="stylesheet" type="text/css" href="css/type.css"/>
+		<style type="text/css">
+				.Validform_error{border:1px solid #FF8383;border-color:#FF8383;background:#FFF1F1 url(../img/956.png) no-repeat 98%;font-size: 14px;}
+				.Validform_wrong{color:#FF8383;padding:10px 10px 0 120px;font-size: 14px;}
+				input{outline:none;}
+				.three .Validform_wrong,.four .Validform_wrong{width: 170px;margin-left: 40px;}
+				.Validform_right{display:none;}
+		</style>
+	</head>
+	<body>
+		<div class="consult-header">
+			 <div class="wraper clearfix">
+			 	  <p class="fl consult-header-tet">上海快鹿投资集团旗下网站：上海快鹿投资集团官网&nbsp;&nbsp; | &nbsp;&nbsp;东虹桥金融</p>
+			 	  <span class="fr">
+				 	  <a href="register.html">登录&nbsp;&nbsp; |</a>
+				 	 <a href="login.html">&nbsp;&nbsp;注册</a>
+			 	  </span>
+			 </div>
+		</div>
+		<!--header end-->
+		<div class="wraper clearfix header">
+			<h1 class="logo">小额贷款有限公司</h1>
+			<ul class="nav">
+				<li><a href="index.html">首&nbsp;&nbsp;&nbsp;页</a></li>
+				<li><a href="gy-intro.html">关于我们</a></li>
+				<li><a href="yw-loan.html">公司业务</a></li>
+				<li><a href="consult.html">咨询中心</a></li>
+				<li><a href="succeed.html">成功案例</a></li>
+				<li><a href="apply.html" class="nav-active">贷款申请</a></li>
+				<li><a href="hy-conter.html">会员中心</a></li>
+				<li><a href="contact.html">联系我们</a></li> 
+			</ul>
+		</div>
+		<!--nav end-->
+		<div class="apply-banner"></div>
+		<!--banner end-->
+		<div class="wraper" style="height: 1050px;">
+			<h2 class="apply-text" style="margin-top: 20px;">申请贷款</h2>
+			<form action="" method="post" class="application clearfix registerform same">
+				<div class="apply-input clearfix quit_form">
+					<label for="tet">
+						<span class="color7 middle">*</span>
+						申请类型:
+					</label>
+					 <input type="url" list="url_list" name="link" id="tet"
+					 	 datatype="/^[\u4E00-\u9FA5\uf900-\ufa2d]{2,4}$/" 
+								errormsg="请输入正确类型！" 
+								nullmsg="类型不能为空" class="quit_form_inpt" />
+						<datalist id="url_list">
+							<option label="W3School" value="http://www.w3school.com.cn" />
+							<option label="Google" value="http://www.google.com" />
+							<option label="Microsoft" value="http://www.microsoft.com" />
+						</datalist>		 	  	  	      	
+			 	  	  	<div class="clearfix"></div>
+			 	  	  	<div class="Validform_checktip"></div>
+				</div>
+				<div class="apply-input clearfix quit_form">
+					<label for="tet2">
+						<span class="color7 middle">*</span>
+						申请人全称:
+					</label>
+					 <input type="text" id="tet2" datatype="/^[\u4E00-\u9FA5\uf900-\ufa2d]{2,4}$/" 
+								errormsg="请输入正确申请名！" 	nullmsg="姓名不能为空" />
+								<div class="clearfix"></div>
+			 	  	  	<div class="Validform_checktip"></div>
+				</div>
+				<div class="apply-input clearfix quit_form">
+					<label for="tet3">
+						<span class="color7 middle">*</span>
+						法定代表人:
+					</label>
+					 <input type="text" id="tet3" datatype="/^[\u4E00-\u9FA5\uf900-\ufa2d]{2,4}$/" errormsg="请输入正确法定代表人！" nullmsg="姓名不能为空" class="quit_form_inpt" />		
+					 <div class="clearfix"></div>
+			 	  <div class="Validform_checktip"></div>
+				</div>
+				<div class="apply-input clearfix quit_form">
+					<label for="tet4">
+						<span class="color7 middle">*</span>
+						办公地:
+					</label>
+					 <input type="text" id="tet4"  datatype="/^[\u4E00-\u9FA5\uf900-\ufa2d]{2,4}$/" errormsg="请输入正确办公地！" nullmsg="办公地不能为空" class="quit_form_inpt"  />	
+					 <div class="clearfix"></div>
+			 	  <div class="Validform_checktip"></div>
+				</div>
+				<div class="apply-input clearfix quit_form">
+					<label for="tet5">
+						<span class="color7 middle">*</span>
+						联系人:
+					</label>
+					 <input type="text" id="tet5" datatype="/^[\u4E00-\u9FA5\uf900-\ufa2d]{2,4}$/" errormsg="请输入正确联系人！" nullmsg="联系人不能为空" class="quit_form_inpt"  />			
+					 <div class="clearfix"></div>
+			 	  <div class="Validform_checktip"></div>
+				</div>
+				<div class="apply-input clearfix">
+					<label for="tet6">
+						<span class="color7 middle">*</span>
+						联系方式:
+					</label>
+					 <input type="text" id="tet6" datatype="s11-16"	errormsg="手机号码最少11位字符" nullmsg="号码不能为空"  id="direct2"/>	
+					 <div class="clearfix"></div>
+			 	  	<div class="Validform_checktip"></div>
+				</div>
+				<div class="apply-input clearfix quit_form">
+					<label for="tet7">					
+						注册资本:
+					</label>
+					 <input type="yext" id="tet7"  datatype="/^[\u4E00-\u9FA5\uf900-\ufa2d]{2,4}$/" errormsg="请输入注册资本！" nullmsg="注册资本不能为空" class="quit_form_inpt" />
+					 <div class="clearfix"></div>
+			 	  	<div class="Validform_checktip"></div>
+				</div>
+				<div class="apply-input clearfix quit_form">
+					<label for="tet8">					
+						注册地:
+					</label>
+					 <input type="text" id="tet8"  datatype="/^[\u4E00-\u9FA5\uf900-\ufa2d]{2,4}$/" errormsg="请输入注册地！" nullmsg="注册地不能为空" class="quit_form_inpt" />
+					<div class="clearfix"></div>
+			 	 	<div class="Validform_checktip"></div>
+				</div>
+				<div class="apply-input clearfix">
+					<label for="tet9">					
+						需求简述:
+					</label>
+					 <textarea id="tet9" cols="59" rows="5" style="border: 1px solid #eee;"></textarea>					
+				</div>
+			    <div class="apply-input clearfix quit_form">
+					<label for="tet6">
+						<span class="color7 middle">*</span>
+						验证码:
+					</label>
+					 <input type="text" id="tet6" style="width: 150px;height:44px; float: left;" datatype="/^[\u4E00-\u9FA5\uf900-\ufa2d]{2,4}$/" errormsg="请输入正确验证码！" nullmsg="验证码不能为空" class="quit_form_inpt"  />
+					 <img src="img/yzm.jpg" class="fl apply-input-img"/>
+					 <span style="line-height: 44px;">看不清？<span class="color8">换一张</span></span>
+					 <div class="clearfix"></div>
+			 	 <div class="Validform_checktip"></div>
+				</div>
+					<input type="button" class="apply-btn" value="立即申请"/>			
+			</form>
+		</div>
+		<!--font end-->
+		<div class="index-blogroll">
+			<div class="wraper clearfix">
+				  <ul class="fl">
+				       <li>关于我们</li> 
+				       <li>企业简介</li> 
+				       <li>企业文化</li> 
+				       <li>荣誉墙</li> 
+				       <li>组织架构</li> 
+				       <li>专家顾问</li> 
+				       <li>社会责任</li> 				       
+				  </ul>
+				  <ul class="fl">
+				       <li>公司业务</li> 
+				       <li>车贷</li> 
+				       <li>增信贷</li> 
+				       <li>薪资贷</li> 
+				       <li>公积金贷款</li> 
+				       <li>房贷（个人版本）</li> 
+				       <li>房贷（法人版本）</li> 
+				       <li>POS贷</li> 
+				       <li>抵押贷</li> 
+				  </ul>
+				   <ul class="fl">
+				       <li>咨询中心</li> 
+				       <li>公司新闻</li> 
+				       <li>行业新闻</li> 
+				       <li>媒体报道</li> 
+				       <li>视频中心</li> 	       
+				  </ul>
+				   <ul class="fl">
+				       <li>成功案例</li> 
+				       <li>成功案例</li> 
+				  </ul>
+				  <ul class="fl">
+				       <li>贷款申请</li> 
+				       <li>贷款申请</li> 
+				  </ul>
+				  <ul class="fl">
+				       <li>会员中心</li> 
+				       <li>注册/登录</li> 
+				       <li>Q&A</li> 
+				  </ul>
+				  <ul class="fl">
+				       <li>联系我们</li> 
+				       <li>联系我们</li> 
+				  </ul>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="wraper clearfix">
+				<p class="footer-tet fl">© 2012 Company name. Shanghai Changning Oriental Hongqiao Microloan 沪ICP备11032948号
+上海市长宁区虹桥路1452号古北国际财富中心一期8层 电话:+8621-32092211</p>
+                <img src="img/foot.jpg"  class="fr" />
+			</div>
+		</div>
+		<script src="js/jquery.js"></script>
+		<script src="js/validate.js"></script>
+		<script src="js/my.js"></script>
+		<!--foot end-->
+	</body>
+</html>
